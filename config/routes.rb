@@ -1,5 +1,5 @@
 AngularSandbox::Application.routes.draw do
-  root 'static_pages#index'
+  root to: 'static_pages#index'
 
   resources :restaurants
 end
